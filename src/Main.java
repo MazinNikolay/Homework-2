@@ -8,10 +8,18 @@ public class Main {
         System.out.println("cat="+cat);
         System.out.println("paper="+paper);
         System.out.println();
-
+        //Задача2
         dog+=4;
         cat+=4;
         paper+=4;
+
+        System.out.println("Now dog="+dog);
+        System.out.println("Now cat="+cat);
+        System.out.println("Now paper="+paper);
+        //Задача3
+        dog-=3.5;
+        cat-=1.6;
+        paper-=7639;
 
         System.out.println("Now dog="+dog);
         System.out.println("Now cat="+cat);
