@@ -57,5 +57,13 @@ public class Main {
         divWeight=secondBoxerWeight-firstBoxerWeight;
         System.out.println("Раница в массе боксеров равна "+divWeight+" кг.");
         System.out.println();
+        //Задача8
+        var summaryTime=640.0;
+        var workTime=8.0;
+        var allWorkers=summaryTime/workTime;
+        System.out.println("Всего работников в компании "+allWorkers+" человек");
+        allWorkers+=94;
+        var eachWorkTime=summaryTime/allWorkers;
+        System.out.println("Если в компании работает "+allWorkers+" человек, то всего "+eachWorkTime+" часа работы может быть поделено между сотрудниками");
     }
 }
