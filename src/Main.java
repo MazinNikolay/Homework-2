@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Now dog="+dog);
         System.out.println("Now cat="+cat);
         System.out.println("Now paper="+paper);
+        System.out.println();
         //Задача3
         dog-=3.5;
         cat-=1.6;
@@ -24,6 +25,15 @@ public class Main {
         System.out.println("Now dog="+dog);
         System.out.println("Now cat="+cat);
         System.out.println("Now paper="+paper);
-
+        System.out.println();
+        //Задача4
+        var friend=19;
+        System.out.println("friend="+friend);
+        friend+=2;
+        System.out.println("Now friend="+friend);
+        System.out.println();
+        friend/=7;
+        System.out.println("Now friend="+friend);
+        System.out.println();
     }
 }
