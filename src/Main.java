@@ -45,5 +45,13 @@ public class Main {
         frog+=4;
         System.out.println("Now frog="+frog);
         System.out.println();
+        //Задача6
+        var firstBoxerWeight=78.2;
+        var secondBoxerWeight=82.7;
+        var sumWeight=firstBoxerWeight+secondBoxerWeight;
+        var divWeight=secondBoxerWeight%firstBoxerWeight;
+        System.out.println("Общая масса боксеров равна "+sumWeight+" кг.");
+        System.out.println("Раница в массе боксеров равна "+divWeight+" кг.");
+        System.out.println();
     }
 }
