@@ -35,5 +35,15 @@ public class Main {
         friend/=7;
         System.out.println("Now friend="+friend);
         System.out.println();
+        //Задача5
+        var frog=3.5;
+        System.out.println("frog="+frog);
+        frog*=10;
+        System.out.println("Now frog="+frog);
+        frog/=3.5;
+        System.out.println("Now frog="+frog);
+        frog+=4;
+        System.out.println("Now frog="+frog);
+        System.out.println();
     }
 }
