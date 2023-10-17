@@ -53,5 +53,9 @@ public class Main {
         System.out.println("Общая масса боксеров равна "+sumWeight+" кг.");
         System.out.println("Раница в массе боксеров равна "+divWeight+" кг.");
         System.out.println();
+        //Задача7
+        divWeight=secondBoxerWeight-firstBoxerWeight;
+        System.out.println("Раница в массе боксеров равна "+divWeight+" кг.");
+        System.out.println();
     }
 }
