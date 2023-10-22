@@ -65,5 +65,47 @@ public class Main {
         allWorkers+=94;
         var eachWorkTime=summaryTime/allWorkers;
         System.out.println("Если в компании работает "+allWorkers+" человек, то всего "+eachWorkTime+" часа работы может быть поделено между сотрудниками");
+        hard1();
+        hard2();
+        hard3();
+    }
+    public static void hard1(){
+        int a=12;
+        int b=27;
+        int c=44;
+        int d=15;
+        int e=9;
+        int result=a*(b+(c-d*e));
+        System.out.println(result);
+        result=-result;
+        System.out.println(result);
+        result=-result;
+        System.out.println(result);
+
+    }
+
+    public static void hard2(){
+        int a=5;
+        int b=7;
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+        if (b>a){
+            a=a+b;
+            b=a-b;
+            a=a-b;
+        }else{
+            b=a+b;
+            a=b-a;
+            b=b-a;
+        }
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+    }
+
+    public static void hard3(){
+        int a=456;
+        int b=(a/10)%10;
+        System.out.println("a="+a);
+        System.out.println("b="+b);
     }
 }
